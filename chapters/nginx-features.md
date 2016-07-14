@@ -5,10 +5,10 @@ In this chapter I will list the features supported with a NGINX loadbalancer, in
 NGINX supports the following features from our current feature list:
 
 - SSL Offloading
-- Session Persistence*
+- Session Persistence[^1]
 - Health Checks
 - Fallback Server (Gone Fishin')
-- API/CLI Commands*
+- API/CLI Commands[^1]
 - Weighted nodes
 
 
@@ -28,14 +28,17 @@ This is done by the loadbalancers advertising the IPs it owns to the router. The
 
 This solution has been replicated in many organisations allowing for higher scalability and better prevention to DDoS attacks.
 
-##### Service Discovery*
+##### Service Discovery[^1]
 
 Service Discovery is the ability to contact an application without knowing what host it lives on. This is generally done using DNS along with [Consul](https://www.consul.io/).
 
 An application would be able to ask for `Payment-API.service.consul` and have that resolve to application node. This happens as when the service starts up it registers it's self with a health API. This allows only health nodes to be descovered.
 
-----
+##### Logging/Monitoring
 
-```
-* = Only avalable in NGINX Plus.
-```
+NGINX has the ability to log all incoming requests and responses. This out of the box feature sounds basic however this would allow us to find out how many users have `4xx`, `5xx` error codes as a response. Along with the right monitoring tool we'd be able to alert if 5% of our requests returned error `500`.
+
+---
+
+
+[^1]: Only avalable in [NGINX Plus](https://www.nginx.com/products/).
