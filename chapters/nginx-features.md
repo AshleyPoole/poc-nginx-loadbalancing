@@ -38,6 +38,10 @@ An application would be able to ask for `Payment-API.service.consul` and have th
 
 NGINX has the ability to log all incoming requests and responses. This out of the box feature sounds basic however this would allow us to find out how many users have `4xx`, `5xx` error codes as a response. Along with the right monitoring tool we'd be able to alert if 5% of our requests returned error `500`.
 
+##### Content Caching[^1]
+
+Content Caching allows static files, such as images, css, js to be cached on the loadbalancer reducing the number of hops taken to retrieve content. This will then recude the time the webpage or service takes to load.
+
 ---
 
 
