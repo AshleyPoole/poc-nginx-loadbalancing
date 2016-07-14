@@ -27,3 +27,11 @@ The Fallback Server feature provides us the ability to show end-users a marketin
 ##### API/CLI Commands
 
 To allow future integrations with deployment pipelines we require a way to interface with the loadbalacing solution without human intervention, this comes in the from of a REST API or CLI commands that can be scripted. 
+
+Currently we manually change the status of our nodes via the GUI however a PowerShell module was created. The plan would be to use this module with the next iteration of the deployment system.
+
+##### Weighted nodes
+
+Currently we don't use weighted nodes as we round-robin requested to our application nodes, however future projects may rely on this feature to change the distribution of traffic.
+
+An example use case would be the ability to canary deployments allowing faster iteration and reduction in issues.
