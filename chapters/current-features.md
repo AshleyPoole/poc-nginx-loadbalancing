@@ -4,7 +4,7 @@ In this chapter, I will review the current features we have, what they are and w
 
 ##### SSL Offloading
 
-SSL Offloading is SSL/TLS (HTTPS traffic) terminatiion before the traffic reaches its destination, this reduces the processing burden of encrypting and decrypting traffic on the application server.
+SSL Offloading is SSL/TLS (HTTPS traffic) termination before the traffic reaches its destination, this reduces the processing burden of encrypting and decrypting traffic on the application server.
 
 We currently use SSL offloading on our marketing websites, uploads portal and customer portal. The plan in the next year is to increase the number of services accepting HTTPS traffic, so we need to make sure our end solution can scale SSL offloading to meet our needs in the future.
 
