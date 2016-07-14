@@ -11,5 +11,5 @@
 * Loadbalancer.org
    * Features
    * Pros vs. Cons
-   * Current Setup
+   * [Current Setup](chapters/loadbalancer.org/current_setup.md)
 
