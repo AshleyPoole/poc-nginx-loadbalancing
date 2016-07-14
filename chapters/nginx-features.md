@@ -40,7 +40,7 @@ NGINX has the ability to log all incoming requests and responses. This out of th
 
 ##### Content Caching[^1]
 
-Content Caching allows static files, such as images, css, js to be cached on the loadbalancer reducing the number of hops taken to retrieve content. This will then recude the time the webpage or service takes to load.
+Content Caching allows static files, such as images, CSS, JS to be cached on the loadbalancer reducing the number of hops taken to retrieve content. This will then reduce the time the web page or service takes to load.
 
 ---
 
