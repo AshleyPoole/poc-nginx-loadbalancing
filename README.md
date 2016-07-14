@@ -8,9 +8,10 @@ In this document, I will highlight the pros and cons of using NGINX for our load
 - The end solution should be easily managed as part of the goal for continuous delivery.
 - The end solution should match the same feature set of our current load balancers.
   - Allow easy configuration via an API/CLI module.
-  - Allow `X-Forwarded-For` header to be injected.
-  - Allow termination of HTTPS traffic.
-  - Allow weighted node values.
-  - Allow session persistence.
-  - Allow custom heath checks to be defined.
-  - Allow a 'Gone Fishing' page if node health checks fail.
+  - Support `X-Forwarded-For` header injection.
+  - Support termination of HTTPS traffic.
+  - Support weighted node values.
+  - Support session persistence.
+  - Support custom heath checks to be defined.
+  - Support a custom 'Gone Fishing' page if node health checks fail.
+  - Support high availability via active/active or active/passive
