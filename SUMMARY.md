@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [Features](chapters/features.md)
-* Introduction
+* [Introduction](chapters/introduction.md)
 
