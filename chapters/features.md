@@ -1,4 +1,4 @@
-# Features
+# Current Features
 
 In this chapter, I will review the current features we have, what why are and why we use them.
 
@@ -23,3 +23,7 @@ At the moment we only check if the site returns the HTTP code of 200 (OK) howeve
 ##### Fallback Server (Gone Fishin')
 
 The Fallback Server feature provides us the ability to show end-users a marketing approved message that says were in planned maintenance, this can be useful when were doing planned maintenance (Updates or DR tests) as well as when nodes fail health checks.
+
+##### API/CLI Commands
+
+To allow future integrations with deployment pipelines we require a way to interface with the loadbalacing solution without human intervention, this comes in the from of a REST API or CLI commands that can be scripted. 
