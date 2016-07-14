@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* [Features](chapters/features.md)
+* [Current Features](chapters/features.md)
 
