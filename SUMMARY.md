@@ -9,7 +9,7 @@
        * PoC: Active/Active
        * PoC: Active/Passive
 * Loadbalancer.org
-   * Features
+   * [Features](chapters/loadbalancer.org/features.md)
    * Pros vs. Cons
    * [Current Setup](chapters/loadbalancer.org/current_setup.md)
 
