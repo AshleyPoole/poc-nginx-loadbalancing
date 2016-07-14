@@ -6,7 +6,7 @@ NGINX supports the following features from our current feature list:
 
 - SSL Offloading
 - Session Persistence[^1]
-- Health Checks
+- Health Checks[^1]
 - Fallback Server (Gone Fishin')
 - API/CLI Commands[^1]
 - Weighted nodes
