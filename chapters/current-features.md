@@ -14,6 +14,10 @@ Session Persistence is the team used to direct an end-user continuously to a par
 
 Session Persistence is currently setup on two of our applications, we have projects to remove this requirement however this is a long term project.
 
+##### High Availability
+
+This feature is one of the core features of any loadbalancer, most implementations use a heartbeat between both loadbalancer nodes and activate  floating IPs if connection is lost between them.
+
 ##### Health Checks
 
 Health checks give us a way to periodically poll end nodes to find out if the application is performing as expected. 
