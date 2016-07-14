@@ -5,5 +5,5 @@
 * [NGINX Pros vs. Cons](chapters/nginx-pros_vs_cons.md)
 * NGINX
    * [Features](chapters/nginx/features.md)
-   * Pros vs. Cons
+   * [Pros vs. Cons](chapters/nginx/pros_vs_cons.md)
 
