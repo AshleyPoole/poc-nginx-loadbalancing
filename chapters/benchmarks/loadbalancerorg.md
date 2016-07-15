@@ -66,7 +66,7 @@ Percentage of the requests served within a certain time (ms)
  
  
  ```
- b -n 50000 -c 200 http://www.protolabs.co.uk/
+ ab -n 50000 -c 200 http://www.protolabs.co.uk/
 This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
