@@ -13,5 +13,5 @@
        * PoC: Active/Passive
 * F5
 * Benchmarks
-   * Direct
+   * [Direct](chapters/benchmarks/direct.md)
 
