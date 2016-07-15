@@ -15,5 +15,5 @@
 * Benchmarks
    * [Direct](chapters/benchmarks/direct.md)
    * [Loadbalancer.org](chapters/benchmarks/loadbalancerorg.md)
-   * [NGINX](chapters/benchmakrs/nginx.md)
+   * [NGINX](chapters/benchmarks/nginx.md)
 
