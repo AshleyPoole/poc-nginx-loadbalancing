@@ -1,6 +1,6 @@
 # NGINX
 
-#### Going to `devuk.www.protolabs.co.uk`
+#### Going to DEV instance.
 
 ```
 $ > httpd-2.4.23-x64-vc14\Apache24\bin\ab.exe -n 50000 -c 200 http://devuk.www.protolabs.co.uk/
