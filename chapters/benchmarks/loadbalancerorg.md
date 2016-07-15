@@ -1,2 +1,63 @@
 # Loadbalancer.org
 
+
+
+
+```
+$ > httpd-2.4.23-x64-vc14\Apache24\bin\ab.exe -n 50000 -c 200 http://devuk.www.protolabs.co.uk/
+This is ApacheBench, Version 2.3 <$Revision: 1748469 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking devuk.www.protolabs.co.uk (be patient)
+Completed 5000 requests
+Completed 10000 requests
+Completed 15000 requests
+Completed 20000 requests
+Completed 25000 requests
+Completed 30000 requests
+Completed 35000 requests
+Completed 40000 requests
+Completed 45000 requests
+Completed 50000 requests
+Finished 50000 requests
+
+
+Server Software:        Microsoft-IIS/7.5
+Server Hostname:        devuk.www.protolabs.co.uk
+Server Port:            80
+
+Document Path:          /
+Document Length:        33752 bytes
+
+Concurrency Level:      200
+Time taken for tests:   785.821 seconds
+Complete requests:      50000
+Failed requests:        476
+   (Connect: 0, Receive: 0, Length: 476, Exceptions: 0)
+Non-2xx responses:      476
+Total transferred:      1691728156 bytes
+HTML transferred:       1671584110 bytes
+Requests per second:    63.63 [#/sec] (mean)
+Time per request:       3143.285 [ms] (mean)
+Time per request:       15.716 [ms] (mean, across all concurrent requests)
+Transfer rate:          2102.36 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    2   2.5      1     100
+Processing:   245 3040 5816.7   2051   75482
+Waiting:       35 3035 5817.0   2046   75479
+Total:        247 3042 5816.7   2053   75483
+
+Percentage of the requests served within a certain time (ms)
+  50%   2053
+  66%   2133
+  75%   2218
+  80%   2326
+  90%   2993
+  95%   4955
+  98%  15107
+  99%  33153
+ 100%  75483 (longest request)
+ ```
