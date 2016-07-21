@@ -18,3 +18,4 @@
 - When adding manual parameters to the HA Proxy configuration, it locks the GUI.
 - There are many steps involved in adding a new VIP to the loadbalancer.org appliance, and this can't be automated.
 - Loadbalancer.org currently does not support Lets Encrypt, and has said to never support it.
+- loadbalancer.org currently does not support the ability to do [HTTP/2](https://www.cloudflare.com/http2/), and application discovery  
