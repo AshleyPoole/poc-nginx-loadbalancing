@@ -10,7 +10,7 @@
 - Using NGINX along with BGP, we're able to progress towards using active/active technologies. As we scale we'll also be able to increase the number of load balancer nodes vs increasing the specs as traffic will be evenly distributed between load balancer nodes.
 - With the purchase of [NGINX Plus](https://www.nginx.com/products/pricing/) we can get support for any NGINX issue.
 - Loadbalancer nodes are not physical so are not subject to hardware issues or scaling issues if we need better hardware. This also prevents us with being left with a brick if/when we move service into the cloud.
-- NGINX supports HTTP/2 out of the box, this would allow fast loading of our websites.
+- NGINX supports [HTTP/2](https://www.cloudflare.com/http2/) out of the box, this would allow fast loading of our websites.
 
 
 ### Cons
