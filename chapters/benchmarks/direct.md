@@ -9,7 +9,7 @@ This is ApacheBench, Version 2.3 <$Revision: 1748469 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 
-Benchmarking devuk.www.protolabs.co.uk (be patient)
+Benchmarking devuk.www.*.co.uk (be patient)
 Completed 5000 requests
 Completed 10000 requests
 Completed 15000 requests
