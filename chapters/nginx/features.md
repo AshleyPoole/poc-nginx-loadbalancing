@@ -18,7 +18,7 @@ A custom built solution using NGINX could also include the following features:
 
 Lets Encrypt is a free and open source tool/provider for getting SSL certifcates. They provide a CLI tool that allows anyone to verify their domain and create certs. Lets Encrypt currently only support Linux distributions.
 
-The benefit of Lets Encrypt is the ability to create as many certificates as we want for free with no comparison in the type of security we get from our current certificates. Let's Encrypt also comes out of the box with automation around provisioning and deploying certificates.
+The benefit of Lets Encrypt is the ability to create as many certificates as we want for free with security equivalent to our current certificates. Let's Encrypt also comes out of the box with automation around provisioning and deploying certificates.
 
 ##### Scale (Active/Active)
 
@@ -32,7 +32,7 @@ This solution has been replicated in many organisations allowing for higher scal
 
 Service Discovery is the ability to contact an application without knowing what host it lives on. This is generally done using DNS along with [Consul](https://www.consul.io/).
 
-An application would be able to ask for `Payment-API.service.consul` and have that resolve to application node. When the service starts up, it registers itself with the health API. This allows just healthy nodes to be discovered.
+An application would be able to ask for `Payment-API.service.consul` and have that resolve to an application node. When the service starts up, it registers itself with the health API. This allows just healthy nodes to be discovered.
 
 ##### Logging/Monitoring
 
