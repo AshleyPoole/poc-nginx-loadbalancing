@@ -13,6 +13,7 @@
        * PoC: Active/Passive
 * F5
 * Citrix
+   * Features
 * Benchmarks
    * [Direct](chapters/benchmarks/direct.md)
    * [Loadbalancer.org](chapters/benchmarks/loadbalancerorg.md)
