@@ -11,6 +11,7 @@
    * Proof of Concepts
        * PoC: Active/Active
        * PoC: Active/Passive
+   * FAQ
 * F5
    * Features
    * Pros vs. Cons
