@@ -11,11 +11,11 @@
 - With the purchase of [NGINX Plus](https://www.nginx.com/products/pricing/) we can get support for any NGINX issue.
 - Loadbalancer nodes are not physical so are not subject to hardware issues or scaling issues if we need better hardware. This also prevents us with being left with a brick if/when we move service into the cloud.
 - NGINX supports [HTTP/2](https://www.cloudflare.com/http2/) out of the box, this would allow fast loading of our websites.
+- NGINX Plus comes with a GUI to monitor the status of the load balancer node. It also allows changes to the configuration. NGINX Plus also has an API that allows configuration. If picked for the load balancing solution I would create two tools for managing the load balancer nodes.
+  - A PowerShell module used to drain/offline services/nodes.
+  - A program to configure NGINX with a YAML file that can be stored in Stash for developer changes (like our current configuration repo)
 
 
 ### Cons
 
 - Any load balancer issues not related to NGINX would have to be resolved by ourselves. This risk would be offset by using configuration management ([Chef](https://www.chef.io/)), stable versions of software, documenting every change on the box, and the reason for the change. All changes will be made in source control using Stash.
-- No GUI; NGINX Plus comes with a GUI to monitor the status of the load balancer node. However, it does not allow any changes to the configuration. NGINX Plus does, however, have an API that allows configuration. If picked for the load balancing solution I would create two tools for managing the load balancer nodes.
-  - A PowerShell module used to drain/offline services/nodes.
-  - A program to configure NGINX with a YAML file that can be stored in Stash for developer changes (like our current configuration repo)
