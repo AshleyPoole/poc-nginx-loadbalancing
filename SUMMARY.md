@@ -16,6 +16,7 @@
    * Pros vs. Cons
 * Citrix
    * Features
+   * Pros vs. Cons
 * Benchmarks
    * [Direct](chapters/benchmarks/direct.md)
    * [Loadbalancer.org](chapters/benchmarks/loadbalancerorg.md)
