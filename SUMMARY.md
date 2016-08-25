@@ -14,7 +14,7 @@
    * Pros vs. Cons
 * Avi Networks
    * [Features](chapters/avi-networks/features.md)
-   * Pros vs. Cons
+   * [Pros vs. Cons](chapters/avi-networks/pros_vs_cons.md)
 * Benchmarks
    * [Direct](chapters/benchmarks/direct.md)
    * [Loadbalancer.org](chapters/benchmarks/loadbalancerorg.md)
