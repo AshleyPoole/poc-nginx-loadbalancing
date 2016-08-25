@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * Avi Networks
 * Loadbalancer.org
    * [Features](chapters/loadbalancer.org/features.md)
    * [Pros vs. Cons](chapters/loadbalancer.org/pros_vs_cons.md)
