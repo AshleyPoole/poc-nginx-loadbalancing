@@ -12,11 +12,10 @@
 * F5
    * Features
    * Pros vs. Cons
+* Avi Networks
+   * Features
+   * Pros vs. Cons
 * Benchmarks
    * [Direct](chapters/benchmarks/direct.md)
    * [Loadbalancer.org](chapters/benchmarks/loadbalancerorg.md)
    * [NGINX](chapters/benchmarks/nginx.md)
-* Avi Networks
-   * Features
-   * Pros vs. Cons
-
