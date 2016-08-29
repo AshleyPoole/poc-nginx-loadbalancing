@@ -2,19 +2,23 @@
 
 In this chapter, I will list the main selling points of Avi Networks distributed load balancer.
 
-The Avi load balancer has seven core categories, each with features that set them apart from other load balancer solutions.
+The Avi load balancer has six core categories, each with features that set them apart from other load balancer solutions.
 
 ##### Application Availability
-In this category we tick off most of our requirements for our load balancer solution; health monitoring, session persistence, stand-in error page, weighted load balancing and high availability. Where Avi shines in this category is the ability to scale horizontally and autoscale, Avi integrates with vSphere so it can automatically scale with our traffic and downscale when needed, this feature also allows a load balancer to be rebuild in less than a minute if we have a failure. 
+In this category we tick off most of the requirements for our load balancer solution; health monitoring, session persistence, stand-in error page, weighted load balancing and high availability. Where Avi shines in this category is the ability to scale horizontally and autoscale. (This uses an integration with vSphere to automatically scale -- Without human intervention, this can be programmed to scale with our traffic or when a load balancer engine fails, this process can be done in less than 30 seconds).
 
 ##### Application Security
-Our only requirement from this section was SSL offloading, but Avi has a lot of extra features we would benefit from. Avi also can detect and prevent L3/L4/L7 DDoS attacks as well as block traffic. In Q1 of 2017 Avi will also have a build in WAF, this in combined with the ability to block IPs directly from the load balancer will make it a lot easier to mitigate attacks.
+Our only requirement from this category was SSL offloading, but Avi has a lot of extra features we would benefit from, a few examples include the ability detect and prevent L3/L4/L7 DDoS attacks and block IPs within the management interface. Another advantage Avi include is rate limiting; this would limit the number of requests made by security scanners. In Q1 of 2017 Avi will also have a build in WAF, this in combined with the ability to block IPs directly from the load balancer will make it a lot easier to mitigate attacks.
 
 ##### App Performance Monitoring
-This category is where Avi shines. Avi is built around an analytics core; this core allows us to get live data of what pages are viewed, from where, on what device, time to connect to LB, time to get application response, etc. (screenshots below). With the ability to search all this data it would make it easy to find issues with application performance, as well as potential attacks. 
+Another category where Avi shines is Monitoring/Analytics. After logging into Avi and selecting a VIP/service, you're presented with a table of page requests and page load time metrics; this can be filtered by a multitude of things like country, IP, browser, device type, etc. (See screenshot).
+These tools can be used for marketing purposes to make sure customers can load our site in an acceptable time; we can also identify what errors customers are getting and even what scan attacks are taking place.
 
 ##### Application Optimisation
-This category is short, Avi like many other load balancing solutions provide content caching so resources like images, javascript and CSS get sent from local cache vs. spending time on a trip to the web servers. Avi also gives the ability to resize images on the fly.
+This category is short, Avi like many other load balancing solutions provide content caching so resources like images, JavaScript and CSS get sent from local cache vs. spending time on a round trip to the web servers. Avi also gives the ability to resize images on the fly.
 
+##### Programmability
+Avi has a few method of automating the configuration, all make use of their core REST API; these methods include Chef, Puppet, SaltStack, and a CLI tool. *** I'm currently finding out if a PowerShell Module exists***
 
-
+##### Management
+One thing we want to focus on when selecting our load balancing solution is how easy it is to manage and how we can reduce the number of actions that are made. Avi has many features we could benefit from, I've already touched on the REST API, so I'll mention the GUI functions; one of the main ones being Avi is built to enable multi-tenant mode. In theory, this would allow a management node in each location in HA mode and allow configuration of the UK from the US node. Another feature Avi has is templates. When adding a VIP/Service you can select from a number of pre-made or custom templates to make the whole setup that much easier.
