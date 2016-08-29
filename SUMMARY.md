@@ -10,7 +10,7 @@
    * [Pros vs. Cons](chapters/nginx/pros_vs_cons.md)
    * FAQ
 * F5
-   * Features
+   * [Features](chapters/f5/features.md)
    * Pros vs. Cons
 * Avi Networks
    * [Features](chapters/avi-networks/features.md)
