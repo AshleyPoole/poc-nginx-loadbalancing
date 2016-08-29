@@ -11,7 +11,7 @@
    * FAQ
 * F5
    * [Features](chapters/f5/features.md)
-   * Pros vs. Cons
+   * [Pros vs. Cons](chapters/f5/pros_vs_cons.md)
 * Avi Networks
    * [Features](chapters/avi-networks/features.md)
    * [Pros vs. Cons](chapters/avi-networks/pros_vs_cons.md)
