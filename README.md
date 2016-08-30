@@ -1,6 +1,6 @@
-# Load-balancing using NGINX
+# Load-balancing
 
-In this document, I will highlight the pros and cons of using NGINX Plus for our load-balancing solution. For the following document, I will assume the following requirements:
+In this document, I'll highlight the pros and cons of each load-balancing solution available and how we could benefit from them. For the following document, I will assume the following requirements:
 
 - The end solution will be deployed at each business location.
 - The end solution should be scalable and be able to handle a minimum of 100Mb/s
