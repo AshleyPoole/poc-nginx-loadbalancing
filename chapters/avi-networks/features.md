@@ -50,6 +50,6 @@ ease of management and reducing the amount of human intervention needed.  Avi
 has many features we could benefit from, I've already touched on the REST API,
 so I'll mention the GUI functions: one of the main ones being multi-tenant
 mode. In theory, this would allow a management node in each location in HA mode
-and allow configuration of the UK from the US node.  Another feature Avi has is
+and allow configuration of the UK from the US node. Another feature Avi has is
 templates: when adding a VIP/Service you can select from a number of pre-made
 or custom templates to make the whole setup that much easier.
