@@ -28,7 +28,7 @@ the load balancer will make it much easier to mitigate attacks.
 Another category where Avi shines is Monitoring/Analytics. After logging into
 Avi and selecting a VIP/service, you're presented with a table of page requests
 and page load time metrics; this can be filtered by a multitude of things like
-country, IP, browser, device type, etc. (See screenshot).  These tools can be
+country, IP, browser, device type, etc. These tools can be
 used for marketing purposes to make sure customers can load our site in an
 acceptable time; we can also identify what errors customers are getting and
 even what scan attacks are taking place.
@@ -41,8 +41,7 @@ has the ability to resize images on the fly.
 
 ##### Programmability
 Avi has a few methods for automating configuration via their core REST API:
-Chef, Puppet, SaltStack, and a CLI tool. *** I'm currently researching to see
-if a PowerShell Module exists ***
+Chef, Puppet, SaltStack, and a CLI tool.
 
 ##### Management
 One thing we want to focus on when selecting our load balancing solution is
