@@ -1,6 +1,6 @@
 # Current Features
 
-+In this chapter, I will review the current features we have, what they are and why we use them.
+In this chapter, I will review the current features we have, what they are and why we use them.
 
 ##### SSL Offloading
 
