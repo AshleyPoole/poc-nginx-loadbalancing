@@ -10,6 +10,8 @@
 - Avi can demonstrate Active/Active meaning we could have our DR load balancer accept traffic.
 - With Avi's REST API and out of the box support for Chef/Puppet/etc, we should be able to automate most (if not all) of the manual tasks we currently do using loadbalancer.org.
 - Avi provides 24/7 support included with purchase. This includes a documented escalation policy with severity/time targets.
+- Avi can use LDAP auth when logging into the controller; this allows us to use the same security procedures as other systems (Password complexity, Password age, and password lockouts)
+- Avi has direct integration with Infoblox. This provides easy management of IPs and DNS of virtual services.
 
 ### Cons
 
