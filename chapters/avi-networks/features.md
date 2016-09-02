@@ -11,12 +11,12 @@ In this category we tick off most of the requirements for our load balancer
 solution; health monitoring, session persistence, stand-in error page, weighted
 load balancing and high availability. Where Avi shines in this category is the
 ability to scale horizontally and autoscale. (This uses an integration with
-vSphere to automatically scale -- Without human intervention, this can be
+vSphere to automatically scale -- without human intervention, this can be
 programmed to scale with our traffic or when a load balancer engine fails, this
 process can be done in less than 30 seconds).
 
 ##### Application Security
-Our only requirement from this category was SSL offloading, but Avi has a lot
+Our only requirement from this category was SSL offloading, but Avi has many
 of extra features we would benefit from, a few examples include the ability to
 detect and prevent L3/L4/L7 DDoS attacks and block IPs within the management
 interface. Another advantage Avi has is rate limiting; this would limit the
